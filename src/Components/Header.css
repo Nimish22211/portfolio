@@ -18,7 +18,13 @@ header > h1:nth-child(1){
 }
 .header_right > h1{
     font-weight: 400;
-    margin:0px 7px
+    margin:0px 7px;
+    padding:7px
+}
+.header_right > h1:hover{
+    background-color:#eee;
+    border-radius: 999px;
+    transition: 0.5s;
 }
 #typing{
     z-index: 1;

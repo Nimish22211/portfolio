@@ -5,9 +5,9 @@ function Header() {
         <header >
             <h1>Dashboard</h1>
             <div className='header_right'>
-                <h1>Youtube</h1>
-                <h1>About Me</h1>
-                <h1>Contact</h1>
+                <h1><a href="#youtube">YouTube</a></h1>
+                <h1><a href="#about">About Me</a></h1>
+                <h1><a href="#contact">Contact</a></h1>
             </div>
         </header>
     )

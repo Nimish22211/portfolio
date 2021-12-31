@@ -1,0 +1,29 @@
+footer{
+    margin-top: 50px;
+    background-color: #333;
+    color:white;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.icon{
+    transform: scale(1.75);
+    cursor: pointer;
+    /* color: black; */
+}
+.yt:hover{
+    color:red
+}
+.twitter:hover{
+    color:#1DA1F2
+}
+.insta:hover{
+    color: #125688;
+}
+.copyright{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}

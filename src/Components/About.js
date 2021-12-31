@@ -44,7 +44,7 @@ function About() {
     }, [])
 
     return (
-        <div className='about'>
+        <div className='about' id="about">
             <div>
                 <h1>Hi I am Nimish</h1>
                 <h2 id="typing"></h2>
