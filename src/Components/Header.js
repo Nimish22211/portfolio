@@ -3,7 +3,7 @@ import './Header.css'
 function Header() {
     return (
         <header >
-            <h1>Dashboard</h1>
+            <h1>Portfolio</h1>
             <div className='header_right'>
                 <h1><a href="#youtube">YouTube</a></h1>
                 <h1><a href="#about">About Me</a></h1>
