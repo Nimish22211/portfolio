@@ -44,12 +44,12 @@ function Main() {
     }, [])
 
     return (
-        <div className='about' id="about">
+        <div className='main' id="main">
             <div>
                 <h1>Hi I am Nimish</h1>
                 <h2 id="typing"></h2>
             </div>
-            <img src="/twitter profile-modified.png" />
+            <img src="/Images/twitter profile-modified.png" />
         </div>
     )
 }

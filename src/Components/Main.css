@@ -1,16 +1,16 @@
-.about{
+.main{
     height:100vh;
     background: linear-gradient(to bottom, #fff 60%,#a7a7a7 );
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.about > div >h1,h2{
+.main > div >h1,h2{
     font-size:50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;   
 }
-.about > img{
+.main > img{
     width:300px;
     height:300px;
 }
