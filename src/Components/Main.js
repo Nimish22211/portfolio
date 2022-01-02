@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import './About.css'
-function About() {
+import './Main.css'
+function Main() {
     useEffect(() => {
         const words = ['I am a web developer.', 'I am Interested in AI.', 'Interested in Blockchain.'];
         let display = document.getElementById('typing');
@@ -54,4 +54,4 @@ function About() {
     )
 }
 
-export default About
+export default Main

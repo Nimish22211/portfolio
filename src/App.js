@@ -1,5 +1,5 @@
 import React from 'react'
-import About from './Components/About'
+import Main from './Components/Main'
 import Header from './Components/Header'
 import Youtube from './Components/Youtube'
 import Footer from './Components/Footer'
@@ -8,7 +8,7 @@ function App() {
     return (
         <div>
             <Header />
-            <About />
+            <Main />
             <Youtube />
             <Projects />
             <Footer />
