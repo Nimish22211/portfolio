@@ -1,10 +1,10 @@
 .projects{
-    background-color: #eee;
+    background-color: #ddd;
     min-height:calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 80px;
     padding-bottom: 50px;
 }
 .projects > h1{
