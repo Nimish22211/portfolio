@@ -14,3 +14,50 @@
     width:300px;
     height:300px;
 }
+#typing{
+    z-index: 1;
+    width:500px;
+    /* background-color: yellow; */
+}
+#typing::after{
+    content: '';
+    height:8px;
+    width:20px;
+    border-right:2px solid black;
+    animation:blink 0.5s infinite ease
+}
+@keyframes blink{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@media(max-width:1100px){
+    .main > img{
+        width:200px;
+        height:200px;
+    }
+}
+@media(max-width:768px){
+    .main{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    /* .main > img{
+        width:100px;
+        height:100px;
+    } */
+    .main > div >h1,h2{
+        font-size:30px;
+        text-align: center;
+    }
+    .main > div{
+        margin-top: 50px;
+    }
+    #typing{
+        width:100%;
+        /* background-color: yellow; */
+    }
+}

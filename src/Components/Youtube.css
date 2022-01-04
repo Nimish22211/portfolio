@@ -60,3 +60,25 @@ ul{
     color: red;
     border:1px solid red
 }
+iframe{
+    height:405px;
+    width:720px
+}
+@media(max-width:768px){
+    .videos{
+        font-size: 18px;
+    }
+    iframe{
+        height:360px;
+        width:480px
+    }
+    .subscribe-me{
+        font-size: 18px;
+    }
+    .subs{
+        font-size: 18px;
+    }
+    .youtube > h1:nth-child(1){
+        font-size: 40px;
+    }
+}

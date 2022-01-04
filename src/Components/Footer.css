@@ -8,6 +8,10 @@ footer{
     align-items: center;
     gap: 50px;
 }
+.icons{
+    display: flex;
+    gap:50px
+}
 .icon{
     transform: scale(1.75);
     cursor: pointer;
@@ -29,4 +33,16 @@ footer{
 }
 .github:hover{
     color: #ccc;
+}
+@media(max-width:768px){
+    .icon{
+        transform: scale(1.2);
+    }
+    .icons{
+        gap:15px;
+        padding-left: 20px;
+    }
+    footer{
+        justify-content: space-between;
+    }
 }

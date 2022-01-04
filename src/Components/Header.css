@@ -3,11 +3,20 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: white;
     height:80px;
     position:fixed;
     width: 100%;
     z-index: 100;
+}
+.menu{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.menu:hover{
+    background-color: #eee;
+    border-radius: 99px;
+    transition: 0.5s;
 }
 header > h1:nth-child(1){
     font-weight: 600;
@@ -20,30 +29,60 @@ header > h1:nth-child(1){
 .header_right > h1{
     font-weight: 400;
     margin:0px 7px;
-    padding:7px
+    padding:7px;
+    font-size:30px;
 }
 .header_right > h1:hover{
     background-color:#eee;
     border-radius: 999px;
     transition: 0.5s;
 }
-#typing{
-    z-index: 1;
-    width:500px;
-    /* background-color: yellow; */
+.sidebar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #ddd;
+    position: absolute;
+    top:80px;
+    right:0;
+    height:auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    transform: translate(0,-200%);
+
 }
-#typing::after{
-    content: '';
-    height:8px;
-    width:20px;
-    border-right:2px solid black;
-    animation:blink 0.5s infinite ease
+.open{
+    transform: translate(0,0%);
+    transition:0.5s
 }
-@keyframes blink{
-    0%{
-        opacity:0;
+.close{
+    transform: translate(0,-200%);
+    transition:0.5s
+}
+@media(max-width:1100px){
+    header{
+        justify-content: space-between;
     }
-    100%{
-        opacity:1;
+    header > h1:nth-child(1){
+        font-size: 22px;
+        padding-left: 10px;
+    }
+    .header_right > h1{
+        font-size: 20px;
+    }
+}
+@media(max-width:768px){
+    header{
+        justify-content: center;
+    }
+    .header_right{
+        display: none;
+    }
+    .menu{
+        position: absolute;
+        right:20px;
     }
 }
