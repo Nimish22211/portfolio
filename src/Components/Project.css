@@ -25,7 +25,7 @@
     height:40px;
     display: flex;
     align-items: center;
-    /* background-color: yellow; */
+    justify-content: space-between;
     padding:0px 10px
 }
 .source{
@@ -33,13 +33,16 @@
     gap: 10px;
     align-items: center;
 }
-.source > button{
+.source > button, .card-footer > button{
     cursor: pointer;
     padding: 1px 10px;
     color:#fff;
     background-color: #333;
     border:none
 }
-.source > button:hover{
+.source > button:hover , .card-footer > button:hover{
     background-color: #555;
+}
+.codepen{
+    width:75px;
 }
