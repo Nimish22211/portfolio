@@ -3,7 +3,7 @@ import Project from './Project'
 import './Certificates.css'
 function Certificates() {
     return (
-        <div className="projects">
+        <div className="projects certificates" id="certificates">
             <h1>Certificates</h1>
             <section className="projects-section">
 

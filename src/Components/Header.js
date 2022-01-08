@@ -24,12 +24,14 @@ function Header() {
         <header >
             <h1>Portfolio</h1>
             <div className='header_right'>
+                <h1><a href="#certificates">Certificates</a></h1>
                 <h1><a href="#youtube">YouTube</a></h1>
                 <h1><a href="#projects">Projects</a></h1>
                 <h1><a href="#about">About Me</a></h1>
                 <h1><a href="#contact">Contact</a></h1>
             </div>
             <div className="sidebar">
+                <a href="#certificates">Certificates</a>
                 <a href="#youtube">YouTube</a>
                 <a href="#projects">Projects</a>
                 <a href="#about">About Me</a>
