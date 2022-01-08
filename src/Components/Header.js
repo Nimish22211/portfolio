@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Header.css'
 import { Menu, Close } from '@material-ui/icons/';
 function Header() {
-    const [width, setWidth] = useState(null);
+    const [width, setWidth] = useState(window.innerWidth);
     const [open, setOpen] = useState(false);
     useEffect(() => {
         window.addEventListener('resize', () => {
@@ -35,7 +35,7 @@ function Header() {
                 <a href="#about">About Me</a>
                 <a href="#contact">Contact</a>
             </div>
-            {width < 768 && open === false && < Menu className="menu" onClick={() => openSideBar()} />}
+            {width < 768 && open === false ? < Menu className="menu" onClick={() => openSideBar()} /> : null}
             {open !== false && <Close className="menu" onClick={() => openSideBar()} />}
         </header>
     )

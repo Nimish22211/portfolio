@@ -46,3 +46,28 @@
 .codepen{
     width:75px;
 }
+.fcclogo{
+    /* height:100px; */
+    width:150px;
+    height:auto;
+}
+@media(max-width:425px){
+    .project_img{
+        width:300px;
+        height:150px;
+    }
+    .card-title{
+        font-size:25px;
+    }
+    .card-footer{
+        width:300px;
+
+        margin-top: 10px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap:5px;
+        margin-bottom: 12px;
+    }
+}

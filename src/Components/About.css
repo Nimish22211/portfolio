@@ -24,7 +24,6 @@
 }
 .react-logo{
     height:300px;
-    /* background-color: red; */
 }
 .tech-logos{
     margin-top: 100px;
@@ -45,5 +44,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+}
+@media(max-width:420px){
+    .react-logo{
+        height:220px
     }
 }

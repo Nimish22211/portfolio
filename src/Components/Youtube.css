@@ -82,3 +82,9 @@ iframe{
         font-size: 40px;
     }
 }
+@media(max-width:425px){
+    iframe{
+        height:200px;
+        width:320px
+    }
+}

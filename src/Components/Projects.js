@@ -13,7 +13,7 @@ function Projects() {
                 <Project host="codepen" title='Pomodoro clock' photoURL="/Images/pomodoro-clock.png" source="https://codepen.io/Nimish_A380/pen/qBmYwrX" />
                 <Project live="https://lessontracker.netlify.app" host="github" title='Lesson Tracker' photoURL="/Images/lesson-tracker.png" source="https://github.com/Nimish22211/LessonTrackerApp" />
                 <Project live="https://yourrubikstimer.netlify.app" host="github" title='Rubiks Timer' photoURL="/Images/rubiks timer.png" source="https://github.com/Nimish22211/Rubiks-Timer" />
-                <Project live="https://javascriptquiz.netlify.app" host="github" title='JS Quiz' photoURL="/Images/js quiz.png" source="https://github.com/Nimish22211/Quiz-with-React" />
+                <Project live="https://myjavascriptquiz.netlify.app" host="github" title='JS Quiz' photoURL="/Images/js quiz.png" source="https://github.com/Nimish22211/Quiz-with-React" />
             </section>
         </div>
     )

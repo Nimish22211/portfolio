@@ -5,6 +5,7 @@ import Header from './Components/Header'
 import Youtube from './Components/Youtube'
 import Footer from './Components/Footer'
 import Projects from './Components/Projects'
+import Certificates from './Components/Certificates'
 function App() {
     return (
         <div>
@@ -13,6 +14,7 @@ function App() {
             <Youtube />
             <Projects />
             <About />
+            <Certificates />
             <Footer />
         </div>
     )
