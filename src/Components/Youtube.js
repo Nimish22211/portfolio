@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react'
 import './Youtube.css'
 function Youtube() {
     const [videos, setVideos] = useState([])
-    const api = process.env.REACT_APP_YTKEY
+    // const api = process.env.REACT_APP_YTKEY
     useEffect(() => {
         async function fetchData() {
-            const res = await fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC3CTmybHAhwECpq5FCtJeiQ&order=date&key=' + api)
+            const res = await fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC3CTmybHAhwECpq5FCtJeiQ&order=date&key=' + process.env.REACT_APP_YTKEY)
                 .then(response => response.json())
             setVideos(res)
         }
