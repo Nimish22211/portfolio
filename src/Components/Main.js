@@ -47,9 +47,9 @@ function Main() {
         <div className='main' id="main">
             <div>
                 <h1>Hi I am Nimish</h1>
-                <h2 id="typing"></h2>
+                <div id="typing"></div>
             </div>
-            <img src="/Images/twitter profile-modified.png" />
+            <img src="/Images/twitter profile-modified.png" alt="twitter profile" />
         </div>
     )
 }

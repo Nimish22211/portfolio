@@ -17,7 +17,9 @@
 #typing{
     z-index: 1;
     width:500px;
-    /* background-color: yellow; */
+    font-size:50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 #typing::after{
     content: '';
