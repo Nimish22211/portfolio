@@ -16,16 +16,16 @@ function Youtube() {
             <h1>Youtube Section</h1>
             {videos.length !== 0 && <iframe src={`https://www.youtube.com/embed/${videos.items[0].id.videoId}`} allowFullScreen frameBorder="0" title='latest youtube video' />}
             <p className="video-caption">My Latest Youtube Video 👆</p>
-            <p className="videos">
+            <div className="videos">
                 <h3>My 5 Latest Videos</h3>
                 <div>
                     <ul>
-                        {videos.length !== 0 && videos.items.map(item => <li>
+                        {videos.length !== 0 && videos.items.map((item, i) => <li key={i}>
                             {item.snippet.title}
                         </li>)}
                     </ul>
                 </div>
-            </p>
+            </div>
             <div className="subscribe-me">
                 <p>Subscribe My Youtube Channel</p>
                 <button className="subs" onClick={subscribeMe}>Subscribe</button>
