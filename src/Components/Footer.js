@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import { Instagram, Twitter, YouTube, GitHub } from '@material-ui/icons/';
 function Footer() {
+    const year = new Date().getFullYear();
     const open = (link) => {
         window.open(link, '_blank');
     }
@@ -13,7 +14,7 @@ function Footer() {
                 <YouTube className="icon yt" onClick={() => open('https://youtube.com/c/nimishbandha')} />
                 <GitHub className="icon github" onClick={() => open('https://github.com/nimish22211')} />
             </div>
-            <p className="copyright">© 2021 Nimish Bandha</p>
+            <p className="copyright">© {year} Nimish Bandha</p>
         </footer>
     )
 }
